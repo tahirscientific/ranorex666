@@ -1,0 +1,73 @@
+﻿<repository
+id="8de507b3-f882-4529-b098-eed9e2af4016"
+name="MyTest1Repository">
+	<codegen
+	classname="MyTest1Repository"
+	namespace="MyTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a314a794-32e8-49a0-a604-2ee62f4c0f92"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="578de55f-e4a2-4267-be44-78d5aa2d9a1e"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="58160ffc-01fa-410e-a23d-2f3cc7f912db"
+			name="EnterYourName"
+			refimgid="7664451f-2df6-4c18-8ba4-3e55355bb5a9"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@controlname='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="4b73ef72-06f9-461c-b93a-796b06260a4a"
+			name="BtnSubmitUserName"
+			refimgid="099dff4a-2eb9-4396-b461-20cfc2bd0119"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+			robustPath="/form[@controlname='RxMainFrame']//button[@controlname='btnSubmitUserName']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="6d09992a-1dbf-4414-a908-72bae87f8f3d"
+			name="RxButtonExit"
+			refimgid="0b9b26fd-6167-4448-a85b-74b2ac4c3e00"
+			refpath="/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']"
+			robustPath="/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']
+			</item>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
